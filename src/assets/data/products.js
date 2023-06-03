@@ -10,23 +10,23 @@ import productImg007 from "../images/single-sofa-04.png";
 import productImg07 from "../images/arm-chair-01.jpg";
 import productImg08 from "../images/arm-chair-02.jpg";
 import productImg09 from "../images/arm-chair-03.jpg";
-import productImg10 from "../images/arm-chair-01.jpg";
+import productImg10 from "../images/arm-chair-04.jpg";
 
-import productImg13 from "../images/phone-01.jpg";
-import productImg14 from "../images/phone-02.jpg";
-import productImg15 from "../images/phone-03.png";
-import productImg16 from "../images/phone-04.jpg";
-import productImg17 from "../images/phone-05.jpg";
-import productImg18 from "../images/phone-06.jpg";
+import productImg13 from "../images/product-01.jpg";
+import productImg14 from "../images/product-02.jpg";
+import productImg15 from "../images/product-03.jpg";
+import productImg16 from "../images/product-04.jpg";
+import productImg17 from "../images/product-05.jpg";
+import productImg18 from "../images/product-06.jpg";
 
 import productImg19 from "../images/watch-01.jpg";
 import productImg20 from "../images/watch-02.jpg";
 import productImg21 from "../images/watch-03.jpg";
 import productImg22 from "../images/watch-04.jpg";
 
-import productImg23 from "../images/wireless-01.png";
+import productImg23 from "../images/product-07.jpg";
 
-import productImg25 from "../images/wireless-03.png";
+import productImg25 from "../images/product-08.jpg";
 
 const products = [
   {
@@ -277,10 +277,10 @@ const products = [
 
   {
     id: "10",
-    productName: "Apple iPhone 12 Pro",
+    productName: "Cross Legs Coffee Table",
     imgUrl: productImg13,
-    category: "mobile",
-    price: 799,
+    category: "decor",
+    price: 145,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -299,10 +299,10 @@ const products = [
   },
   {
     id: "25",
-    productName: "Sakarias Armchair",
+    productName: "Novaria Armchair",
     imgUrl: productImg10,
     category: "chair",
-    price: 99,
+    price: 79,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -321,10 +321,10 @@ const products = [
   },
   {
     id: "11",
-    productName: "Apple iPhone 12 Max",
+    productName: "Numerale Windmill Clock",
     imgUrl: productImg14,
-    category: "mobile",
-    price: 799,
+    category: "decor",
+    price: 139,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -344,10 +344,10 @@ const products = [
 
   {
     id: "12",
-    productName: "Realme 8",
+    productName: "Day Wall Clock Light Grey",
     imgUrl: productImg15,
-    category: "mobile",
-    price: 599,
+    category: "decor",
+    price: 209,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -367,10 +367,10 @@ const products = [
 
   {
     id: "13",
-    productName: "One Plus Nord",
+    productName: "Umbra Magazine Rack",
     imgUrl: productImg16,
-    category: "mobile",
-    price: 799,
+    category: "decor",
+    price: 55,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -390,10 +390,10 @@ const products = [
 
   {
     id: "14",
-    productName: "Apple iPhone 13 Pro",
+    productName: "Canna 5 Blade Ceiling Fan",
     imgUrl: productImg17,
-    category: "mobile",
-    price: 899,
+    category: "decor",
+    price: 189,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -413,10 +413,10 @@ const products = [
 
   {
     id: "15",
-    productName: "Samsung Galaxy S22",
+    productName: "Kabino Sideboard Grey",
     imgUrl: productImg18,
-    category: "mobile",
-    price: 699,
+    category: "decor",
+    price: 266,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -528,10 +528,10 @@ const products = [
 
   {
     id: "20",
-    productName: "Beat Studio Wireless",
+    productName: "Tip Table Lamp",
     imgUrl: productImg23,
-    category: "wireless",
-    price: 199,
+    category: "decor",
+    price: 188,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -551,10 +551,10 @@ const products = [
 
   {
     id: "22",
-    productName: "Beat EP Headphones",
+    productName: "Cap Table Lamp",
     imgUrl: productImg25,
-    category: "wireless",
-    price: 199,
+    category: "decor",
+    price: 145,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
