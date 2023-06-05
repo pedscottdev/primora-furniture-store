@@ -51,4 +51,48 @@
   font-weight: 600;
 }
 
+/* Responsive */
+@media only screen and (max-width:992px){
+  .hero_content h2{
+    font-size: 2rem;
+  }
+
+  .section_title{
+    font-size: 1.7rem;
+  }
+
+  .counter-img{
+    display: none;
+  }
+
+  .clock_top-content{
+    text-align: center;
+  }
+
+  .count_down-content{
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width:768px){
+  .hero_content h2{
+    font-size: 1.5rem;
+  }
+
+  .hero_content p{
+    font-size: 0.9rem;
+  }
+
+  .shop_btn{
+    font-size: 0.9rem;
+  }
+
+  .section_title{
+    font-size: 1.4rem;
+  }
+
+  .count_down-content{
+    text-align: center;
+  }
+}
 

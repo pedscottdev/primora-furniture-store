@@ -51,7 +51,7 @@ const Home = () => {
               <p className='hero_subtible'>Trending products in {year}</p>
               <h2>Make Your Interior More Minimalistic & Modern </h2>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In velit magnam perspiciatis sint dignissimos iusto saepe quis totam deleniti cumque.</p>
-              <motion.button whileTap={{ scale:1.2 }} className="shop_btn"><Link to="/shop">SHOW NOW</Link></motion.button>
+              <motion.button whileTap={{ scale:1.2 }} className="buy_btn shop_btn"><Link to="/shop">SHOP NOW</Link></motion.button>
             </div>
           </Col>
 
@@ -91,7 +91,7 @@ const Home = () => {
     <section className="timer_count_promotion">
       <Container>
         <Row>
-          <Col lg='6' md='6'>
+          <Col lg='6' md='12' className='count_down-content'>
             <div className="clock_top-content">
               <h4 className='text-white fs-6 mb-2'>Limited Offers</h4>
               <h3 className='text-white fs-5 mb-3'>Quality Armchair</h3>
@@ -99,7 +99,7 @@ const Home = () => {
             <Clock/>
             <motion.button whileTap={{ scale:1.2 }} className="store_btn"><Link to='/shop'>Visit Store</Link></motion.button>
           </Col>
-          <Col lg='6' md='6' className='text-text-end'>
+          <Col lg='6' md='12' className='text-end counter-img'>
             <img src={counterImg} alt="" />
           </Col>
         </Row>

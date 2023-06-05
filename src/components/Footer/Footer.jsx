@@ -10,18 +10,18 @@ const Footer = () => {
   return <footer className='footer'>
     <Container>
       <Row>
-        <Col lg='4'>
+        <Col lg='4' md='6' className='mb-4'>
           <div className='logo'>
             <img src={logo} alt="primora-logo" />
             <div>
-              <h1 className='text-white'>PRIMORA</h1>
+              <h1 className=''>PRIMORA</h1>
             </div>
           </div>
           <p className="footer_text">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius alias adipisci aperiam eaque accusantium ratione aliquid rem, id nulla nam!</p>
         </Col>
 
-        <Col lg='3'>
+        <Col lg='3' md='3'  className='mb-4'>
           <div className="footer_quick-links">
             <h4 className="quick_links-title">Top Categories</h4>
             <ListGroup className='mb-3'>
@@ -44,7 +44,7 @@ const Footer = () => {
           </div>
         </Col>
 
-        <Col lg='3'>
+        <Col lg='2' md='3'  className='mb-4'>
           <div className="footer_quick-links">
             <h4 className="quick_links-title">Useful Links</h4>
             <ListGroup className='mb-3'>
@@ -67,7 +67,7 @@ const Footer = () => {
           </div>
         </Col>
 
-        <Col lg='2'>
+        <Col lg='3' md='4'  className='mb-4'>
           <div className="footer_quick-links">
             <h4 className="quick_links-title">Contact</h4>
             <ListGroup className='footer_contact mb-3'>

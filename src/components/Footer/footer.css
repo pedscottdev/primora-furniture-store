@@ -4,6 +4,11 @@
   background: var(--primary-color);
 }
 
+.footer .logo h1 {
+  font-weight: 500;
+  color: white;
+}
+
 .footer_text{
   line-height: 30px;
   color: rgb(225, 225, 225);
